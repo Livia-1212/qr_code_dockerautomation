@@ -52,3 +52,11 @@ jobs:
           tags: livia1212/devops_demo:latest
 
           # Add other relevant build parameters here
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v5
+        with:
+            push: true
+            tags: livia1212/devops_demo:latest
+          env:
+            DOCKER_CLI_EXPERIMENTAL: enabled
