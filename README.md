@@ -3,7 +3,7 @@
 
 1. Put the screenshot of your image in your Docker account here.\
 
-![image on my Docker account](http://url/to/img.png)
+![image on my Docker account](https://github.com/Livia-1212/qr_code_dockerautomation/blob/main/Images.png)
 
 
 
