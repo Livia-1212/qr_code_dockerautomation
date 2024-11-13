@@ -1,3 +1,5 @@
 venv
 _*pycache*_
 .pytest_cache
+.coverage
+.pylintrc
