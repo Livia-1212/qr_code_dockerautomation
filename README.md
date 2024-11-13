@@ -1,1 +1,1 @@
-# qr_code_dockerautomation
+# qr_code_dockerautomation (Devops Demo _ Livia _ 11/12/2024)
