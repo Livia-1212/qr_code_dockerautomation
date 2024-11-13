@@ -46,9 +46,12 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
           
       - name: Build and push Docker image
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v3
         with:
-          push: true
-          tags: livia1212/devops_demo:latest
-          # You can add other build parameters here if needed
+            push: true
+            tags: livia1212/devops_demo:latest
+          env:
+            DOCKER_CLI_EXPERIMENTAL: enabled
+            DOCKER_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
+            DOCKER_PASSWORD: ${{ secrets.DOCKERHUB_TOKEN }}
 
