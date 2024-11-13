@@ -9,7 +9,9 @@
 
 ## Basic Commands (self-made note)
 **Container Management** \
->docker ps\
+'''sh
+docker ps\
+'''
  list all running containers
 
 >docker run \
